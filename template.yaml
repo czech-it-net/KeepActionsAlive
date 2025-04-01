@@ -24,7 +24,7 @@ Resources:
     Properties:
       CodeUri: src/
       Handler: app.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.13
       Environment:
         Variables:
           PAT_SECRET_NAME: !Ref PATSecretARN
